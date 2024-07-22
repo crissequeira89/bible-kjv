@@ -1,0 +1,163 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+a:link, a:visited, a:active {
+    color: blue;
+    text-decoration: none;
+}
+a:hover {
+    color: purple;
+}
+body,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.container,
+#bibleversion,
+#versioninformation,
+#fork,
+#oldtestamentbooks,
+#newtestamentbooks,
+#oldtestament,
+#newtestament,
+.book,
+.backtobooks,
+.bookchapter,
+.backtochapters,
+.button,
+.chaptertext {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+.chaptertext {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.chaptertext > p {
+    font-size: 16pt;
+}
+#bibleversion,
+#versioninformation,
+#fork,
+#oldtestamentbooks,
+#newtestamentbooks,
+#oldtestament,
+#newtestament,
+.book,
+.backtobooks,
+.bookchapter,
+.backtochapters {
+    border: 0;
+    border-right: 0;
+    border-bottom: 2px solid #FFF;
+    border-left: 0;
+}
+.firstbutton {
+    border-left: 2px solid #FFF;
+}
+.button {
+    border-right: 2px solid #FFF;
+    border-bottom: 2px solid #FFF;
+}
+.container,
+#bibleversion,
+#versioninformation,
+#fork,
+#oldtestamentbooks,
+#newtestamentbooks,
+#oldtestament,
+#newtestament,
+.book,
+.backtobooks,
+.bookchapter,
+.backtochapters,
+.button {
+    height: 50px;
+}
+.container,
+#bibleversion,
+#versioninformation,
+#fork,
+#oldtestamentbooks,
+#newtestamentbooks,
+#oldtestament,
+#newtestament,
+.book,
+.backtobooks,
+.bookchapter,
+.backtochapters,
+.chaptertext {
+    width: 100%;
+}
+.button {
+    width: 20%;
+}
+.container {
+    display: table;
+}
+#bibleversion,
+#versioninformation,
+#fork,
+#oldtestamentbooks,
+#newtestamentbooks,
+#oldtestament,
+#newtestament,
+.book,
+.backtobooks,
+.bookchapter,
+.backtochapters,
+.button,
+.chaptertext {
+    display: table-cell;
+}
+#bibleversion,
+#versioninformation,
+#fork,
+#oldtestamentbooks,
+#newtestamentbooks,
+#oldtestament,
+#newtestament,
+.book,
+.backtobooks,
+.bookchapter,
+.backtochapters,
+.button {
+    text-align: center;
+    vertical-align: middle;
+}
+#bibleversion,
+#versioninformation,
+#fork,
+#oldtestamentbooks,
+#newtestamentbooks,
+#oldtestament,
+#newtestament,
+.book,
+.backtobooks,
+.bookchapter,
+.backtochapters  {
+    background-color: #E9E9E9;
+}
+.button {
+    background-color: #F0F0F0;
+}
+#versioninformation > a > h2,
+#fork > a > h2,
+.backtobooks > a > h4,
+.backtochapters > a > h5 {
+    font-size: 10pt;
+    font-family: 'Courier New', Courier, monospace;
+}
+.button > a > h4,
+.button > a > h3,
+.backtobooks > a > h4,
+.backtochapters > a > h5 {
+    font-family: "Lucida Console", Monaco, monospace;
+}
